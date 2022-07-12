@@ -19,8 +19,7 @@
     /*margin-right: 70px;*/
     margin-bottom: 60px;
     @media screen and (min-width:768px) {
-        margin-left:61px;
-        text-align: start;
+        margin-right: 165px;
 }
 }
 .logo-footer {
@@ -81,4 +80,10 @@
     &:focus {
         color: var(--accent-color);
     }
+}
+@media screen and(min-width:768px) {
+    .footer-wrap {
+            display: flex;
+            justify-content: center;
+        }
 }

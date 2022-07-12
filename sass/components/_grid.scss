@@ -26,6 +26,10 @@
     &:focus {
         box-shadow: var(--portfolio-shadow-set);
     }
+
+        @media screen and(min-width:768px) {
+            width: calc((100% - 30px)/2);
+        }
 }
 
 .links {
@@ -46,9 +50,8 @@
     letter-spacing: 0.03em;
     color: var(--white-text-color);
     background-color: rgba(33, 150, 243, 0.9);
-    padding: 77px 24px;
-    ;
-justify-content: center;
+    padding: 77px 24px 77px 24px;
+    justify-content: center;
     height: 100%;
     transform: translateY(101%);
     transition: transform 300ms linear;
@@ -56,6 +59,10 @@ justify-content: center;
     .item:hover & {
         transform: translateY(0);
         }
+                @media screen and(min-width:768px) {
+                padding: 49px 24px 77px 24;
+                line-height: 1.5;
+                }
 }
 
 .project-names {
@@ -83,4 +90,8 @@ justify-content: center;
     display: flex;
     flex-wrap: wrap;
     /*justify-content: center;*/
+    @media screen and(min-width:768px) {
+            justify-content: center;
+            margin-bottom: 30px;
+        }
 }
