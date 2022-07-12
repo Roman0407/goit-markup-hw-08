@@ -1,0 +1,84 @@
+.foter {
+    background-color: #2F303A;
+    
+}
+
+.containar-foter {
+    /*display: flex;
+    align-items: baseline;*/
+    text-align: center;
+    padding-top: 60px;
+        padding-bottom: 60px;
+}
+
+.logo-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*margin-right: 70px;*/
+    margin-bottom: 60px;
+    @media screen and (min-width:768px) {
+        margin-left:61px;
+        text-align: start;
+}
+}
+.logo-footer {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    /*font-size: 26px;*/
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    width: 145px;
+}
+
+.accent {
+    color: var(--white-text-color);
+}
+
+
+
+.address {
+    /*margin-top: 9px;*/
+    margin-top: 8px;
+    &-title {
+        color: var(--white-text-color);
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        margin-top: 20px;
+        }
+}
+
+.footer-mail,
+.footer-telefon {
+    color: var(--footer-text-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.mail-link {
+    /*margin-bottom: 9px;*/
+    margin-bottom: 8px;
+}
+
+.footer-mail {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer-telefon {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
