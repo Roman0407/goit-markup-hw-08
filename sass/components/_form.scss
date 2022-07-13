@@ -40,6 +40,9 @@
         border-color: var(--accent-color);
         outline: transparent;
     }
+        @media screen and(min-width:1200px) {
+             padding: 12px 42px;
+        }
 }
 
 .input-wrap {
@@ -138,13 +141,16 @@
         background-size: contain;
         }    
         
-                @media screen and(min-width:480px) {
-                    font-size: 12px;
-                    line-height: 1.16;
-                }
+        @media screen and(min-width:480px) {
+            font-size: 12px;
+            line-height: 1.16;
+        }
+        @media screen and(min-width:480px) {
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
 }
-
-
 
 .modal-icon-input {
     position: absolute;

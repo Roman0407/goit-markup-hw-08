@@ -1,9 +1,11 @@
 .pointer {
     cursor: pointer;
-    /*padding-top: 94px;
-    padding-bottom: 94px;*/
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and(min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
 }
 
 /*.list{
@@ -24,6 +26,9 @@
         box-shadow: var(--button-backgroud-color);
     }
     margin-bottom: 15px;
+        @media screen and(min-width:1200px) {
+            margin-bottom: 0;
+}
 }
 
 .main-button {
