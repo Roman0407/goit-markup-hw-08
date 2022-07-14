@@ -3,23 +3,18 @@
     width: 100%;
     background-color: var(--white-text-color);
     border-bottom: 1px solid #ECECEC;
-
 }
 
 .nav-header {
     @media screen and(min-width:768px) {
         display: flex;
-            
-            align-items: center;   
-        }
-
-    
+        align-items: center;   
+        }  
 }
 
 .flex-list{
     display: flex;
     align-items: center;
-   
 }
 
 .menu-open-btn {
@@ -36,8 +31,7 @@
 
     &__icon{
         display: block; 
-    }
-       
+    }   
 }
 
 
@@ -74,7 +68,6 @@
     height: 48px;
     background-color: transparent;
     border-color: transparent;
-
     @media screen and(min-width:768px) {
             display: none;
         }
@@ -113,7 +106,6 @@
 
 .mob-auth-items{
     margin-bottom: 64px;
-   
 }
 
 .mob-auth-items:not(:last-child) {
@@ -294,9 +286,7 @@ display: none;
 }
 
 .auth-nav {
-    /*display: flex;*/
     display: none;
-   /* margin-left: auto;*/
     @media screen and(min-width:768px) {
             display: flex;
            flex-direction: column; 
@@ -304,10 +294,8 @@ display: none;
          @media screen and(min-width:1200px) {
              display: flex;
              flex-direction: row;
-             margin-left: auto;
-             
-         }
-                
+             margin-left: auto;  
+         }         
 }
 
 .auth-nav .items+.items {
@@ -351,8 +339,7 @@ display: none;
                             font-size: 14px;
                             line-height: 1.2;
 
-                        }
-           
+                        }         
 }
 
 .items-link{
@@ -383,14 +370,11 @@ display: none;
                  @media screen and(min-width:1200px) {
                          width: 10px;
                         height: 16px;
-                 }
-                
+                 }           
 }
 
 .address-list,
 .tel {
-    
-    
     @media screen and(min-width:768px) {
            margin-right: 8px;
         }

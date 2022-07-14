@@ -1,14 +1,10 @@
 .logo {
     font-family: Raleway, sans-serif;
-   /* width: 145px;*/
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    /*padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px;*/
     @media screen and(min-width:1200px) {
             padding: 24px;
             margin-right: 93px;
@@ -19,8 +15,7 @@
 
 .logo-accent {
     color: var(--primary-text-color);
-    /*padding-top: 24px;
-    padding-bottom: 25px;*/
+    
 }
 
 .visually-hidden {

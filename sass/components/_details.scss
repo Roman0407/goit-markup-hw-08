@@ -15,7 +15,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /*width: 270px;*/
             width: 100%;
             height: 120px;
             margin-bottom: 30px;
@@ -61,8 +60,6 @@
         
         @media screen and(min-width:1200px) {
             width: calc((100% - 90px)/4);
-           
-          
         }
 }
 }

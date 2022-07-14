@@ -219,21 +219,40 @@
           <ul class="gallery__list">
             <li class="gallery__item">
                <div class="gallery__thumb">
-                 <img src="./images/mac.jpg" alt="Набираем  список" width="370">
+                  <div class="feature-item-links">
+                     <picture>
+                        <source srcset="./images/mac-d-min.jpg 1x,
+                                       ./images/mac-d@2x-min.jpg 2x" 
+                                       media="(min-width:1200px)" />
+                        <img src="./images/mac-m-min.jpg" alt="Набираем  список">
+                     </picture>
                  <p class="gallery__description">Десктопные приложения</p>
                </div>
-            </li>
+               </div>
+             </li>
 
             <li class="gallery__item">
                <div class="gallery__thumb">
-                 <img src="./images/mobil.jpg" alt="Приложение на телефоне" width="370">
-               <p class="gallery__description">Мобильные приложения</p>
+                  <picture>
+                     <source srcset="./images/mobil-d-min.jpg 1x,
+                                    ./images/mobil-d@2x-min.jpg 2x" 
+                                    media="(min-width:1200px)" />
+                     <img src="./images/mobil-m-min.jpg" alt="Приложение на телефоне">
+                  </picture>
+                 
+                 <p class="gallery__description">Мобильные приложения</p>
                </div>
             </li>
 
             <li class="gallery__item">
                <div class="gallery__thumb">
-                 <img src="./images/ipad.jpg" alt="Рисуем на планшете" width="370">
+                  <picture>
+                     <source srcset="./images/ipad-d-min.jpg 1x,
+                                    ./images/ipad-d@2x-min.jpg 2x"
+                                     media="(min-width:1200px)" />
+                     <img src="./images/ipad-m-min.jpg" alt="Рисуем на планшете">
+                  </picture>
+                 
                <p class="gallery__description">Дизайнерские решения</p>
                </div>
             </li>
@@ -248,8 +267,23 @@
          <h2 class="team-title">Наша команда</h2>
          <ul class="last">
           <li class="list-employees">
-            <div class="employees">
-             <img src="./images/igor.jpg" alt="Игорь" width="270">
+           <div class="employees">
+            <picture>
+               <source srcset="./images/igor-d-min.jpg 1x,
+             ./images/igor-d@2x-min.jpg 2x"
+             media="(min-width:1200px)"/>
+
+            <source srcset="./images/igor-t-min.jpg 1x,
+                         ./images/igor-t@2x-min.jpg 2x" 
+                         media="(min-width:768px)" />
+
+            <source srcset="./images/igor-m-min.jpg 1x,
+                        ./images/igor-m@2x-min.jpg 2x" 
+                        media="(min-width:320px)" />
+
+            <img src="./images/igor-m-min.jpg" alt="Игорь">
+            </picture>
+             
                <div class="team-list-employees">
                    <h3 class="name">Игорь Демьяненко</h3>
                    <p class="job-title">Product Designer</p>
@@ -288,12 +322,27 @@
                      </li>
                    </ul>
                </div>
-             </div>
+            </div>
           </li>
 
           <li class="list-employees">
             <div class="employees">
-             <img src="./images/olga.jpg" alt="Ольга" width="270">
+               <picture>
+                  <source srcset="./images/olga-d-min.jpg 1x,
+                            ./images/olga-d@2x-min.jpg 2x" 
+                            media="(min-width:1200px)" />
+               
+                  <source srcset="./images/olga-t-min.jpg 1x,
+                                 ./images/olga-t@2x-min.jpg 2x" 
+                                 media="(min-width:768px)" />
+               
+                  <source srcset="./images/olga-m-min.jpg 1x,
+                                    ./images/olga-m@2x-min.jpg 2x" 
+                                    media="(min-width:320px)" />
+
+                  <img src="./images/olga-m-min.jpg" alt="Ольга">
+               </picture>
+
               <div class="team-list-employees">
                 <h3 class="name">Ольга Репина</h3>
                 <p class="job-title">Frontend Developer</p>
@@ -337,7 +386,21 @@
 
           <li class="list-employees">
             <div class="employees">
-             <img src="./images/nikolay.jpg" alt="Николай" width="270">
+               <picture>
+               <source srcset="./images/kolya-d-min.jpg 1x,
+                           ./images/kolya-d@2x-min.jpg 2x" 
+                           media="(min-width:1200px)" />
+               
+               <source srcset="./images/kolya-t-min.jpg 1x,
+                              ./images/kolya-t@2x-min.jpg 2x"
+                               media="(min-width:768px)" />
+               
+               <source srcset="./images/kolya-m-min.jpg 1x,
+                               ./images/kolya-m@2x-min.jpg 2x" 
+                               media="(min-width:320px)" />
+               
+               <img src="./images/kolya-m-min.jpg" alt="Николай">
+               </picture>
                 <div class="team-list-employees">
                   <h3 class="name">Николай Тарасов</h3>
                   <p class="job-title">Marketing</p>
@@ -380,7 +443,21 @@
 
           <li class="list-employees">
             <div class="employees">
-             <img src="./images/mihail.jpg" alt="Михаил" width="270">
+               <picture>
+                  <source srcset="./images/misha-d-min.jpg 1x,
+                                 ./images/misha-d@2x-min.jpg 2x"
+                                  media="(min-width:1200px)" />
+               
+                  <source srcset="./images/misha-t-min.jpg 1x,
+                                 ./images/misha-t@2x-min.jpg 2x" 
+                                 media="(min-width:768px)" />
+               
+                  <source srcset="./images/misha-m-min.jpg 1x,
+                                 ./images/misha-m@2x-min.jpg 2x" 
+                                 media="(min-width:320px)" />
+               
+                  <img src="./images/misha-m-min.jpg" alt="Михаил">
+               </picture>
                <div class="team-list-employees">
                 <h3 class="name">Михаил Ермаков</h3>
                 <p class="job-title">UI Designer</p>
