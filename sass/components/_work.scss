@@ -8,21 +8,13 @@
         }
 }
 
-.work {
-    margin-right: 8px;
-    &:last-child {
-        margin-right: 0;
-        }
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 8px;
+}
 
-    &:hover,
-    &:focus {
-        box-shadow: var(--button-backgroud-color);
-    }
-    margin-bottom: 15px;
-        @media screen and(min-width:1200px) {
-            margin-bottom: 0;
-}
-}
+
 
 .main-button {
     font-family: roboto, sans-serif;
